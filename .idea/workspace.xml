@@ -10,12 +10,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UjsDQPyNu8ymx1egn54hbdiYAX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,6 +68,7 @@
       <workItem from="1575953763721" duration="6881000" />
       <workItem from="1575963327901" duration="18264000" />
       <workItem from="1576040370914" duration="2482000" />
+      <workItem from="1576044403139" duration="9640000" />
     </task>
     <servers />
   </component>

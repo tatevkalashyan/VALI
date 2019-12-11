@@ -27,6 +27,15 @@
 body {
     font-family: 'Inter-Regular', sans-serif;
 }
+.title_h1 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 56px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1F2747;
+    margin-bottom: 32px;
+}
 .title_h2 {
     font-family: 'Inter-Bold', sans-serif;
     font-size: 44px;
@@ -41,6 +50,14 @@ body {
     line-height: 49px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.title_h3 {
+    font-family: 'Inter-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #272F53;
     margin-bottom: 32px;
 }
 .title_h4 {
@@ -169,6 +186,10 @@ body {
 .over-hidden {
     overflow: hidden;
 }
+.p-tb--120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .p-r--188 {
     padding-right: 188px;
 }
@@ -196,6 +217,10 @@ body {
 .p-r--30 {
     padding-right: 30px;
 }
+.p-lr--62 {
+    padding-left: 62px;
+    padding-right: 62px;
+}
 .m-t--57 {
     margin-top: 57px;
 }
@@ -207,6 +232,12 @@ body {
 }
 .m-t--45 {
     margin-top: 45px;
+}
+.m-b--30 {
+    margin-bottom: 30px;
+}
+.m-b--120 {
+    margin-bottom: 120px;
 }
 .info_section--text h2 {
     font-family: 'Inter-Bold',sans-serif;
@@ -313,7 +344,6 @@ body {
     margin-bottom: 0;
 }
 .method-col {
-    /*max-width: calc(100% / 3);*/
     padding: 0 36px;
 }
 .facts-section {
@@ -344,7 +374,7 @@ body {
 }
 .aur-input {
     width: 320px;
-    height: 42px;
+    height: 44px;
     border: 0;
     background: rgba(255, 255, 255, 0.04);
     border-radius: 4px;
@@ -400,24 +430,21 @@ body {
     background-position: 869px 125px;
     background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg-dark {
+    background: #1F2747!important;
+}
+.fw-bold {
+    font-family: 'Inter-Bold', sans-serif;
+}
+.color-green {
+    color: #22B483;
+}
+.color-red {
+    color: #E0463E;
+}
+.color-yellow{
+    color: #F3BB4C;
+}
 
 @media (min-width: 1200px){
     .container1224 {
@@ -456,11 +483,18 @@ body {
         padding-right: 30px;
     }
 }
-@media  (max-width: 768px){
+@media screen and (max-width: 768px) {
     .wrap{
         flex-wrap: wrap;
     }
+    .reverse {
+        flex-wrap: wrap-reverse;
+    }
     .p-r--230 {
         padding-right: 0;
+    }
+    .p-lr--62 {
+           padding-left: 0;
+           padding-right: 0;
     }
 }
