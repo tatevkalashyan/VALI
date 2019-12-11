@@ -190,6 +190,9 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.p-b--120 {
+    padding-bottom: 120px;
+}
 .p-r--188 {
     padding-right: 188px;
 }
@@ -445,7 +448,20 @@ body {
 .color-yellow{
     color: #F3BB4C;
 }
-
+.about-header-section {
+    background: url("images/about.png") no-repeat;
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+}
+.bg-ellipse {
+    ;
+    background-image: url("images/Ellipse.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @media (min-width: 1200px){
     .container1224 {
         max-width: 1254px;
