@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="747d0f8c-31a8-4741-83b3-ca420ec8ba6e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UjsDQPyNu8ymx1egn54hbdiYAX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jointohire Front end\Desktop\webSite\images" />
+      <recent name="C:\Users\Jointohire Front end\Desktop\webSite\fonts" />
+      <recent name="C:\Users\Jointohire Front end\Desktop\webSite\js" />
+      <recent name="C:\Users\Jointohire Front end\Desktop\webSite\css" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="747d0f8c-31a8-4741-83b3-ca420ec8ba6e" name="Default Changelist" comment="" />
+      <created>1575881218617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575881218617</updated>
+      <workItem from="1575881219845" duration="14088000" />
+      <workItem from="1575900231917" duration="3000" />
+      <workItem from="1575953763721" duration="6881000" />
+      <workItem from="1575963327901" duration="18264000" />
+      <workItem from="1576040370914" duration="2482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1576040691833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576040691833" />
+    <state x="461" y="145" key="SettingsEditor" timestamp="1575894261983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575894261983" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1575894789550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575894789550" />
+    <state x="682" y="429" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1575887369809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="429" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575887369809" />
+  </component>
+</project>
