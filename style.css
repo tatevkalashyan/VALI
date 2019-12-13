@@ -28,6 +28,9 @@ body {
     font-family: 'Inter-Regular', sans-serif;
     font-size: 16px;
 }
+a, a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
 .title_h1 {
     font-family: 'Inter-Bold', sans-serif;
     /*font-size: 56px;*/
@@ -239,6 +242,10 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.p-t-80-b--120 {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
 .p-b--120 {
     padding-bottom: 120px;
 }
@@ -301,8 +308,14 @@ body {
 .m-b--32 {
     margin-bottom: 32px;
 }
+.m-b--40 {
+    margin-bottom: 40px;
+}
 .m-b--48 {
     margin-bottom: 48px;
+}
+.m-b--60 {
+    margin-bottom: 60px;
 }
 .m-b--120 {
     margin-bottom: 120px;
@@ -310,8 +323,17 @@ body {
 .m-r--12 {
     margin-right: 12px;
 }
+.m-r--16 {
+    margin-right: 16px;
+}
+.m-r--24 {
+    margin-right: 24px;
+}
 .m-l--12 {
     margin-left: 12px;
+}
+.w-10 {
+    width: 10%;
 }
 .info_section--text h2 {
     font-family: 'Inter-Bold',sans-serif;
@@ -682,11 +704,21 @@ body {
     line-height: 24px;
     color: rgba(13, 13, 13, 0.72);
 }
-
+.alert{
+    padding: 32px;
+}
+.alert-warning {
+    color: #E0463E;
+    background-color: #FAF6F5;
+    border-color: #FAF6F5;
+}
 
 @media (min-width: 1200px){
     .container1224 {
         max-width: 1254px;
+    }
+    .container480 {
+        max-width: 510px;
     }
     .container736 {
         max-width: 766px;
