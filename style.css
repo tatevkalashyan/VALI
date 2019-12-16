@@ -305,6 +305,9 @@ a, a:hover, a:focus, a:visited {
 .m-b--30 {
     margin-bottom: 30px;
 }
+.m-b--12 {
+    margin-bottom: 12px;
+}
 .m-b--32 {
     margin-bottom: 32px;
 }
@@ -332,8 +335,12 @@ a, a:hover, a:focus, a:visited {
 .m-l--12 {
     margin-left: 12px;
 }
-.w-10 {
-    width: 10%;
+.w-280 {
+    max-width: 280px;
+    width: 100%;
+}
+.flex-1 {
+    flex: 1;
 }
 .info_section--text h2 {
     font-family: 'Inter-Bold',sans-serif;
@@ -652,8 +659,8 @@ a, a:hover, a:focus, a:visited {
 .checkbox:checked + .switch {
     background: rgba(13, 13, 13, 0.04);
 }
-.checkbox {
-    display : none;
+.pricing-switch .checkbox {
+    display:none;
 }
 .color-gray {
     color: rgba(13, 13, 13, 0.44);
@@ -712,13 +719,13 @@ a, a:hover, a:focus, a:visited {
     background-color: #FAF6F5;
     border-color: #FAF6F5;
 }
+.container480 {
+    max-width: 510px;
+}
 
 @media (min-width: 1200px){
     .container1224 {
         max-width: 1254px;
-    }
-    .container480 {
-        max-width: 510px;
     }
     .container736 {
         max-width: 766px;
