@@ -722,6 +722,13 @@ a, a:hover, a:focus, a:visited {
 .container480 {
     max-width: 510px;
 }
+.text-wrapper {
+    overflow: hidden;
+    word-break: break-all;
+}
+button a{
+    color: inherit;
+}
 
 @media (min-width: 1200px){
     .container1224 {
@@ -783,6 +790,12 @@ a, a:hover, a:focus, a:visited {
     }
     .pricing-list {
         margin-bottom: 24px;
+    }
+    .aur_numbers {
+        padding: 30px;
+    }
+    .method-section img {
+        width: 100%;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px){
