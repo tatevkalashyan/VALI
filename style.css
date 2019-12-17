@@ -406,6 +406,9 @@ a, a:hover, a:focus, a:visited {
 .flex-1 {
     flex: 1;
 }
+.fs-13 {
+    font-size: 13px!important;
+}
 .info_section--text h2 {
     font-family: 'Inter-Bold',sans-serif;
     /*font-size: 44px;*/
@@ -570,6 +573,11 @@ a, a:hover, a:focus, a:visited {
 .footer-section {
     background-color: #1F2747;
     color: #FFFFFF;
+}
+.footer-section .text-white a{
+    color: #FFFFFF!important;
+    text-decoration: underline;
+    opacity: 1!important;
 }
 .footer-section .navbar-brand {
     padding-top: 28px;
@@ -793,6 +801,11 @@ a, a:hover, a:focus, a:visited {
 }
 button a{
     color: inherit;
+}
+.copyright-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.4);
 }
 
 @media (min-width: 1200px){
