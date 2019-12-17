@@ -10,6 +10,19 @@
 </head>
 <body>
     <div class="body_aur">
+        <div class="body-wrapper" id="body-wrapper">
+            <div>
+                <div class="body-wrapper--content" onclick="myFunction()"></div>
+                <div class="body-wrapper--footer d-flex justify-content-around" id="fadeInUp">
+                    <p class="info_section--text--minP text-white mb-0">
+                        This website uses cookies to collect statistics about our visitors and to help us analyze how the site is used.
+                        <br>
+                        Please see our privacy policy. By clicking "I agree" you agree to our use of cookies and similar technologies.
+                    </p>
+                    <button class="btn_green w-280 agree-btn" onclick="myFunction()">I AGREE</button>
+                </div>
+            </div>
+        </div>
         <div class="header-bg">
             <header>
                 <nav class="navbar navbar-expand-lg navbar-dark bg_header_dark p-0">
@@ -33,7 +46,9 @@
                             <button class="btn_light_blue">
                                 <a href="http://greatexpertdev.site/projects/aurora/signIn.html">Sign In</a>
                             </button>
-                            <button class="btn_green">Get Started</button>
+                            <button class="btn_green">
+                                <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
+                            </button>
                         </div>
                     </div>
                 </nav>
@@ -43,7 +58,9 @@
                     <div class="info_aur col-md-6">
                         <h1>Be Independent. <br> Explore investment opportunities</h1>
                         <p>A new way to analize, challenge & empower self-management investment decisions while saving money on broker fees</p>
-                        <button class="btn_green">Get Started for Free</button>
+                        <button class="btn_green">
+                            <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started for Free</a>
+                        </button>
                     </div>
                     <div class="col-md-6 over-hidden p-0">
                         <img src="images/aur_info_pic.png" alt="info-picture" style="width: 100%">
@@ -128,7 +145,7 @@
                     </div>
                 </div>
             </section>
-            <section class="info_section p-l--188 p-r--122 iPadPro2">
+            <section class="info_section p-l--188 p-r--122 ">
                 <div class="d-flex align-items-center wrap">
                     <div class="info_section--text col-12 col-md-6">
                         <h2>Get What You Need <br> For Investing</h2>
@@ -172,7 +189,7 @@
                            </ul>
                        </div>
                     </div>
-                    <div class=" col-12 col-md-6 p-0">
+                    <div class=" col-12 col-md-6 p-0 iPadPro2">
                         <img src="images/iPadPro.png" alt="iPadPro" class="picIPad2" style="width: 100%">
                     </div>
                 </div>
@@ -204,10 +221,10 @@
             </section>
             <section class="facts-section">
                 <div class="container container860">
-                    <div class="d-flex flex-column justify-content-center">
-                        <h2 class="title_h2">Powered by the Screener</h2>
-                        <p class="info_section--text--maxP p-r--230">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus.</p>
-                    </div>
+<!--                    <div class="d-flex flex-column justify-content-center">-->
+<!--                        <h2 class="title_h2">Powered by the Screener</h2>-->
+<!--                        <p class="info_section&#45;&#45;text&#45;&#45;maxP p-r&#45;&#45;230">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus.</p>-->
+<!--                    </div>-->
                     <div class="d-flex justify-content-between aur_numbers m-t--28 wrap">
                         <div class="">
                             <div class="aur_number">6 000</div>
@@ -237,7 +254,9 @@
                     <form action="">
                         <div>
 <!--                            <input type="email" class="aur-input" placeholder="E-mail">-->
-                            <button class="btn_green">Get Started</button>
+                            <button class="btn_green">
+                                <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -280,6 +299,15 @@
             </section>
         </footer>
     </div>
+    <script>
+        setTimeout(function(){
+            document.getElementById("body-wrapper").style.display = "block"
+            document.getElementById("fadeInUp").classList.add("fadeInUp");
+            }, 2000);
+        function myFunction() {
+            document.getElementById("body-wrapper").style.display = "none";
+        }
+    </script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
