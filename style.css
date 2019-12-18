@@ -321,7 +321,7 @@ a:hover, a:focus, a:visited {
     padding-right: 188px;
 }
 .p-r--122 {
-    padding-right: 122px;
+    padding-right: 122px!important;
 }
 .p-r--230 {
     padding-right: 230px;
@@ -354,6 +354,9 @@ a:hover, a:focus, a:visited {
 .p-lr--90 {
     padding-left: 90px;
     padding-right: 90px;
+}
+.p-t--120 {
+    padding-top: 120px;
 }
 .m-t--57 {
     margin-top: 57px;
@@ -797,6 +800,23 @@ button a{
     line-height: 14px;
     color: rgba(255, 255, 255, 0.4);
 }
+.free_btn {
+    margin-top: 32px;
+    padding: 12px 24px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 6px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.free_btn:hover {
+    border: 1px solid #22B483;
+    background-color: #22B483;
+    color: #FFFFFF!important;
+}
 
 @media (min-width: 1200px){
     .container1224 {
@@ -835,7 +855,7 @@ button a{
         padding-left: 30px;
     }
     .p-r--122 {
-        padding-right: 30px;
+        padding-right: 30px!important;
     }
 }
 @media screen and (max-width: 768px) {
