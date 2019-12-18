@@ -30,6 +30,10 @@ body {
 }
 a, a:hover, a:focus, a:visited {
     text-decoration: none;
+
+}
+a:hover, a:focus, a:visited {
+    color: inherit;
 }
 .title_h1 {
     font-family: 'Inter-Bold', sans-serif;
@@ -531,20 +535,6 @@ a, a:hover, a:focus, a:visited {
 }
 .method-col {
     padding: 0 36px;
-}
-.facts-section {
-    padding: 120px;
-    background-color: #FFFFFF;
-}
-.facts-section .aur_numbers{
-    padding: 0;
-    background-color: #FFFFFF;
-}
-.facts-section .aur_number{
-    text-align: left;
-}
-.facts-section .info_number{
-    text-align: left;
 }
 .get-start-section {
     padding: 120px;
