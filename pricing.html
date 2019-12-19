@@ -21,20 +21,39 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#">Learn</a>
-                        <a class="nav-item nav-link active" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
+                        <div class="dropdown show">
+                            <a class="nav-item nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Learn <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">News</a>
+                                <a class="dropdown-item" href="#">Blog</a>
+                                <a class="dropdown-item" href="#">Videos</a>
+                            </div>
+                        </div>
+                        <!--                                <a class="nav-item nav-link" href="#">Learn</a>-->
+                        <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
                         <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
+                        <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
                     </div>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex align-items-center">
+
                     <button class="btn_light_blue">
                         <a href="http://greatexpertdev.site/projects/aurora/signIn.html">Sign In</a>
                     </button>
                     <button class="btn_green">
                         <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
                     </button>
+                    <div class="d-flex align-items-center ml-3">
+                        <select id="sel-lang" class="sel-lang">
+                            <option value="en">en</option>
+                            <option value="heb">hebrew</option>
+                        </select>
+                        <i class="fa fa-angle-down text-white"></i>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -112,10 +131,10 @@
         <section class="get-start-section">
             <div class="container">
                 <h2 class="title_h2-white">Want To Get Started?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
+                <p>Try our service and see for yourself. You will have free trial version available.</p>
                 <form action="">
                     <div>
-<!--                        <input type="email" class="aur-input" placeholder="E-mail">-->
+                        <!--                            <input type="email" class="aur-input" placeholder="E-mail">-->
                         <button class="btn_green">
                             <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
                         </button>
@@ -127,20 +146,35 @@
         <section class="footer-section">
             <div class="navbar navbar-expand-lg navbar-dark bg_header_dark p-0">
                 <div class="container container1224">
-                    <div class="d-flex flex-column">
-                        <div class="d-flex align-items-baseline m-b--32">
-                            <a class="navbar-brand" href="http://greatexpertdev.site/projects/aurora">
-                                <img src="images/Logo/Aurora.png" alt="logo">
-                            </a>
-                            <div class="d-flex justify-content-around flex-1">
+                    <div class="d-flex flex-column p-t--28">
+                        <div class="d-flex  m-b--32">
+                            <div class="d-flex flex-column">
+                                <a class="m-b--52" href="http://greatexpertdev.site/projects/aurora">
+                                    <img src="images/Logo/Aurora.png" alt="logo">
+                                </a>
+                                <div class="d-flex flex-column opacity072 text-left">
+                                    <p><a href="" class="nav-item nav-link opacity072 fs-13 p-0">2019 © Aurora Investing</a></p>
+                                    <p>
+                                        <a class="nav-item nav-link opacity072 fs-13 p-0" href="http://greatexpertdev.site/projects/aurora/terms.html">Terms & Conditions</a>
+                                    </p>
+                                    <p>
+                                        <a class="nav-item nav-link opacity072 fs-13 p-0" href="#">Privacy Statement</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-around flex-1 p-t--24">
                                 <div class="d-flex justify-content-around flex-column">
-                                    <a class="nav-item nav-link opacity072" href="#">Learn</a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
+                                    <h5 class="green-title pl-3">Menu</h5>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="#">News</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="#">Blog</a>
+                                    <a class="nav-item nav-link opacity072" href="#">Videos</a>
                                 </div>
                                 <div class="fs-13">
+                                    <h5 class="green-title">Help</h5>
                                     <p class="text-white">
                                         <span class="opacity072">Support for registrations and packages:</span>
                                         <br>
@@ -157,13 +191,11 @@
                                     </p>
                                 </div>
                                 <div class="d-flex flex-column opacity072 text-left">
-                                    <p><a href="" class="nav-item nav-link opacity072 fs-13">2019 © Aurora Investing</a></p>
-                                    <p>
-                                        <a class="nav-item nav-link opacity072 fs-13" href="http://greatexpertdev.site/projects/aurora/terms.html">Terms & Conditions</a>
-                                    </p>
-                                    <p>
-                                        <a class="nav-item nav-link opacity072 fs-13" href="#">Privacy Statement</a>
-                                    </p>
+                                    <h5 class="green-title">Follow Us</h5>
+                                    <div class="d-flex">
+                                        <img src="images/linked.png" alt="linkedIn" class="mr-2">
+                                        <img src="images/insta.png" alt="instagram">
+                                    </div>
                                 </div>
                             </div>
                         </div>

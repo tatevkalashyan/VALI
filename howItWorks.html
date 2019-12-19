@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>How It Works</title>
@@ -20,130 +22,161 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#">Learn</a>
-                        <a class="nav-item nav-link active" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
+                        <div class="dropdown show">
+                            <a class="nav-item nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Learn <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">News</a>
+                                <a class="dropdown-item" href="#">Blog</a>
+                                <a class="dropdown-item" href="#">Videos</a>
+                            </div>
+                        </div>
+                        <!--                                <a class="nav-item nav-link" href="#">Learn</a>-->
+                        <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
                         <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
+                        <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
                     </div>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex align-items-center">
+
                     <button class="btn_light_blue">
                         <a href="http://greatexpertdev.site/projects/aurora/signIn.html">Sign In</a>
                     </button>
-                    <button class="btn_green"><a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a></button>
+                    <button class="btn_green">
+                        <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
+                    </button>
+                    <div class="d-flex align-items-center ml-3">
+                        <select id="sel-lang" class="sel-lang">
+                            <option value="en">en</option>
+                            <option value="heb">hebrew</option>
+                        </select>
+                        <i class="fa fa-angle-down text-white"></i>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
     <main role="main">
-        <div class="container p-lr--62 p-tb--120">
-            <div class="text-center m-b--120">
-                <h1 class="title_h1 m-b--30">How It Works</h1>
-                <p class="info_section--text--maxP">A new way to analize, challenge & empower self-management
+        <section class="about-header-section">
+            <div class="d-flex justify-content-center align-items-center flex-column h-100">
+                <h1 class="title_h2-white">How It Works</h1>
+                <p class="info_section--text--maxP text-white">A new way to analize, challenge & empower self-management
                     <br> investment decisions while saving money on broker fees</p>
             </div>
-            <div class="d-flex justify-content-between align-items-center wrap m-b--120 m-t--45">
-                <div class="col-12 col-md-6 p-0">
-                    <div class="p-r--122">
-                        <div class="m-b--30">
-                            <img src="images/icon2.png" alt="">
+        </section>
+        <div class="p-tb--120">
+            <div class=" m-b--120 m-t--45 p-lr--62">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center wrap">
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="p-r--122">
+                                <div class="m-b--30">
+                                    <img src="images/icon2.png" alt="">
+                                </div>
+                                <h3 class="title_h3">Global Assessment</h3>
+                                <p class="info_section--text--minP">
+                                    A global assessment is designed to give a quick and simple estimate of stocks and investment funds.
+                                    It combines financial and technical analyses (valuation, update profits, technical factors, and group reference indices) with sensitivity analysis.
+                                    A better assessment of the individual parameters leads to a better global assessment.
+                                </p>
+                            </div>
                         </div>
-                        <h3 class="title_h3">Global Assessment</h3>
-                        <p class="info_section--text--minP">
-                            A global assessment is designed to give a quick and simple estimate of stocks and investment funds.
-                            It combines financial and technical analyses (valuation, update profits, technical factors, and group reference indices) with sensitivity analysis.
-                            A better assessment of the individual parameters leads to a better global assessment.
-                        </p>
+                        <div class="col-12 col-md-6 p-0 text-right">
+                            <img src="images/pic2.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 p-0 text-right">
-                    <img src="images/pic2.png" alt="">
-                </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center wrap m-b--120 m-t--45 reverse">
-                <div class="col-12 col-md-6 p-0 text-left">
-                    <img src="images/Pic1.png" alt="" class="w-100">
-                </div>
-                <div class="col-12 col-md-6 p-0">
-                    <div class="p-l--122">
-                        <div class="m-b--30">
-                            <img src="images/icon1.png" alt="">
+            <div class="p-tb--120 p-lr--62 bg-snow reverse">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center wrap">
+                        <div class="col-12 col-md-6 p-0 text-left">
+                            <img src="images/Pic1.png" alt="" class="w-100">
                         </div>
-                        <h3 class="title_h3">Evaluating quality <br>
-                            of securities with "stars"</h3>
-                        <p class="info_section--text--minP">
-                            The granting of "stars" is designed to allow you to identify quality stocks quickly and easily. A similar assessment is done for funds.
-                        </p>
-                        <p class="info_section--text--minP mb-0">
-                            Therefore, a stock can earn a maximum of four stars The lowest rating a stock can have is no stars.
-                        </p>
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="p-l--122">
+                                <div class="m-b--30">
+                                    <img src="images/icon1.png" alt="">
+                                </div>
+                                <h3 class="title_h3">Evaluating quality <br>
+                                    of securities with "stars"</h3>
+                                <p class="info_section--text--minP">
+                                    The granting of "stars" is designed to allow you to identify quality stocks quickly and easily. A similar assessment is done for funds.
+                                </p>
+                                <p class="info_section--text--minP mb-0">
+                                    In this easy-to-use rating system, a stock can earn stars for the following element:
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><span class="color-red">•</span> Profit trend through expected earnings per share valuation</li>
+                                    <li><span class="color-red">•</span> Valuation rating per share relative to current price</li>
+                                    <li><span class="color-red">•</span> Medium term technical trend analysis</li>
+                                    <li><span class="color-red">•</span> Relative to market performance in last 4 weeks</li>
+                                </ul>
+                                <p>
+                                    An investment fund can earn stars for the following elements:
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><span class="color-red">•</span> Sharp ratio</li>
+                                    <li><span class="color-red">•</span> Information ratio</li>
+                                    <li><span class="color-red">•</span> Medium term technical trend analysis</li>
+                                    <li><span class="color-red">•</span> Market relative performance in the last 6 months</li>
+                                </ul>
+                                <p>Therefore, a stock & fund can earn a maximum of four stars. The lowest rating a stock can have is no stars.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
-
-            <div class="d-flex justify-content-between align-items-center wrap m-t--45">
-                <div class="col-12 col-md-6 p-0">
-                    <div class="p-r--122">
-                        <div class="m-b--30">
-                            <img src="images/icon3.png" alt="">
+            <div class=" m-t--45 p-lr--62">
+                <div class="container p-tb--120">
+                    <div class="d-flex justify-content-between align-items-center wrap">
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="p-r--122">
+                                <div class="m-b--30">
+                                    <img src="images/icon3.png" alt="">
+                                </div>
+                                <h3 class="title_h3">Sensitivity</h3>
+                                <p class="info_section--text--minP">
+                                    Developments in the price of a stock are generally volatile and contain high sensitivity that may end in full loss.
+                                    Based on their historical behavior, stocks are categorized by sensitivity level.
+                                    These sensitivity levels should be taken into account only in comparison with historical shares.
+                                </p>
+                                <p class="info_section--text--minP fw-bold">
+                                    There are three levels of sensitivity levels:
+                                </p>
+                                <p class="info_section--text--minP">
+                                    <span class="color-green">Low sensitivity:</span> The sensitivity metrics descend below the global attribution average.
+                                </p>
+                                <p class="info_section--text--minP">
+                                    <span class="color-yellow">Mild sensitivity:</span> The tolerance indices are positioned higher than the global reference average, but lower than the standard deviation.
+                                </p>
+                                <p class="info_section--text--minP">
+                                    <span class="color-red">High Sensitivity:</span> The sensitivity indices are at higher levels than the standard deviation.
+                                </p>
+                            </div>
                         </div>
-                        <h3 class="title_h3">Sensitivity</h3>
-                        <p class="info_section--text--minP">
-                            Developments in the price of a stock are generally volatile and contain high sensitivity that may end in full loss.
-                            Based on their historical behavior, stocks are categorized by sensitivity level.
-                            These sensitivity levels should be taken into account only in comparison with historical shares.
-                        </p>
-                        <p class="info_section--text--minP fw-bold">
-                            There are three levels of sensitivity levels:
-                        </p>
-                        <p class="info_section--text--minP">
-                            <span class="color-green">Low sensitivity:</span> The sensitivity metrics descend below the global attribution average.
-                        </p>
-                        <p class="info_section--text--minP">
-                            <span class="color-yellow">Mild sensitivity:</span> The tolerance indices are positioned higher than the global reference average, but lower than the standard deviation.
-                        </p>
-                        <p class="info_section--text--minP">
-                            <span class="color-red">High Sensitivity:</span> The sensitivity indices are at higher levels than the standard deviation.
-                        </p>
+                        <div class="col-12 col-md-6 p-0 text-right">
+                            <img src="images/Pic3.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 p-0 text-right">
-                    <img src="images/Pic3.png" alt="">
-                </div>
             </div>
-<!--            <div class="d-flex justify-content-between align-items-center wrap m-t&#45;&#45;45">-->
-<!--                <div class="col-12 col-md-6 p-0">-->
-<!--                    <img src="images/ChartFigure.png" alt="">-->
-<!--                </div>-->
-<!--                <div class="col-12 col-md-6 p-0">-->
-<!--                    <div class="p-l&#45;&#45;122">-->
-<!--                        <div class="m-b&#45;&#45;30">-->
-<!--                            <img src="images/icon4.png" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="title_h3">Earnings forecast for stock</h3>-->
-<!--                        <p class="info_section&#45;&#45;text&#45;&#45;minP">-->
-<!--                             This figure indicates the profit forecast for the stock.-->
-<!--                            A positive number of 2.8 indicates that compared to a forecast from seven weeks ago,-->
-<!--                            the analysts updated and raised their estimates in 2.8% profit per share,-->
-<!--                            a negative number indicates that the profit forecast for the stock was updated downwards.-->
-<!--                        </p>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-<!--            </div>-->
         </div>
     </main>
     <footer>
         <section class="get-start-section">
             <div class="container">
                 <h2 class="title_h2-white">Want To Get Started?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
+                <p>Try our service and see for yourself. You will have free trial version available.</p>
                 <form action="">
                     <div>
-<!--                        <input type="email" class="aur-input" placeholder="E-mail">-->
-                        <button class="btn_green"><a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a></button>
+                        <!--                            <input type="email" class="aur-input" placeholder="E-mail">-->
+                        <button class="btn_green">
+                            <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -152,20 +185,35 @@
         <section class="footer-section">
             <div class="navbar navbar-expand-lg navbar-dark bg_header_dark p-0">
                 <div class="container container1224">
-                    <div class="d-flex flex-column">
-                        <div class="d-flex align-items-baseline m-b--32">
-                            <a class="navbar-brand" href="http://greatexpertdev.site/projects/aurora">
-                                <img src="images/Logo/Aurora.png" alt="logo">
-                            </a>
-                            <div class="d-flex justify-content-around flex-1">
+                    <div class="d-flex flex-column p-t--28">
+                        <div class="d-flex  m-b--32">
+                            <div class="d-flex flex-column">
+                                <a class="m-b--52" href="http://greatexpertdev.site/projects/aurora">
+                                    <img src="images/Logo/Aurora.png" alt="logo">
+                                </a>
+                                <div class="d-flex flex-column opacity072 text-left">
+                                    <p><a href="" class="nav-item nav-link opacity072 fs-13 p-0">2019 © Aurora Investing</a></p>
+                                    <p>
+                                        <a class="nav-item nav-link opacity072 fs-13 p-0" href="http://greatexpertdev.site/projects/aurora/terms.html">Terms & Conditions</a>
+                                    </p>
+                                    <p>
+                                        <a class="nav-item nav-link opacity072 fs-13 p-0" href="#">Privacy Statement</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-around flex-1 p-t--24">
                                 <div class="d-flex justify-content-around flex-column">
-                                    <a class="nav-item nav-link opacity072" href="#">Learn</a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
-                                    <a class="nav-item nav-link opacity072" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
+                                    <h5 class="green-title pl-3">Menu</h5>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="#">News</a>
+                                    <a class="nav-item nav-link opacity072 m-b--16" href="#">Blog</a>
+                                    <a class="nav-item nav-link opacity072" href="#">Videos</a>
                                 </div>
                                 <div class="fs-13">
+                                    <h5 class="green-title">Help</h5>
                                     <p class="text-white">
                                         <span class="opacity072">Support for registrations and packages:</span>
                                         <br>
@@ -182,13 +230,11 @@
                                     </p>
                                 </div>
                                 <div class="d-flex flex-column opacity072 text-left">
-                                    <p><a href="" class="nav-item nav-link opacity072 fs-13">2019 © Aurora Investing</a></p>
-                                    <p>
-                                        <a class="nav-item nav-link opacity072 fs-13" href="http://greatexpertdev.site/projects/aurora/terms.html">Terms & Conditions</a>
-                                    </p>
-                                    <p>
-                                        <a class="nav-item nav-link opacity072 fs-13" href="#">Privacy Statement</a>
-                                    </p>
+                                    <h5 class="green-title">Follow Us</h5>
+                                    <div class="d-flex">
+                                        <img src="images/linked.png" alt="linkedIn" class="mr-2">
+                                        <img src="images/insta.png" alt="instagram">
+                                    </div>
                                 </div>
                             </div>
                         </div>
