@@ -37,10 +37,10 @@ a:hover, a:focus, a:visited {
 }
 .title_h1 {
     font-family: 'Inter-Bold', sans-serif;
-    /*font-size: 56px;*/
-    /*line-height: 62px;*/
-    font-size: 54px;
-    line-height: 60px;
+    font-size: 56px;
+    line-height: 62px;
+    /*font-size: 54px;*/
+    /*line-height: 60px;*/
     text-align: center;
     letter-spacing: -0.03em;
     color: #1F2747;
@@ -48,20 +48,20 @@ a:hover, a:focus, a:visited {
 }
 .title_h2 {
     font-family: 'Inter-Bold', sans-serif;
-    /*font-size: 44px;*/
-    /*line-height: 49px;*/
-    font-size: 42px;
-    line-height: 47px;
+    font-size: 44px;
+    line-height: 49px;
+    /*font-size: 42px;*/
+    /*line-height: 47px;*/
     letter-spacing: -0.02em;
     color: #272F53;
     margin-bottom: 32px;
 }
 .title_h2-white {
     font-family: 'Inter-Bold', sans-serif;
-    /*font-size: 44px;*/
-    /*line-height: 49px;*/
-    font-size: 42px;
-    line-height: 47px;
+    font-size: 44px;
+    line-height: 49px;
+    /*font-size: 42px;*/
+    /*line-height: 47px;*/
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 32px;
@@ -69,28 +69,28 @@ a:hover, a:focus, a:visited {
 .title_h3 {
     font-family: 'Inter-Bold', sans-serif;
     font-weight: bold;
-    /*font-size: 28px;*/
-    /*line-height: 32px;*/
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 32px;
+    /*font-size: 26px;*/
+    /*line-height: 30px;*/
     color: #272F53;
     margin-bottom: 32px;
 }
 .title_h4 {
     font-weight: bold;
-    /*font-size: 22px;*/
-    /*line-height: 25px;*/
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 25px;
+    /*font-size: 20px;*/
+    /*line-height: 23px;*/
     text-align: center;
     color: #272F53;
 }
 .title_h4_min {
     font-family: 'Inter-Bold', sans-serif;
-    /*font-size: 22px;*/
-    /*line-height: 22px;*/
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    /*font-size: 20px;*/
+    /*line-height: 20px;*/
     text-align: center;
     color: #1F2747;
     margin-bottom: 24px;
@@ -267,20 +267,20 @@ a:hover, a:focus, a:visited {
 }
 .info_aur h1{
     font-weight: bold;
-    /*font-size: 44px;*/
-    /*line-height: 49px;*/
-    font-size: 42px;
-    line-height: 47px;
+    font-size: 44px;
+    line-height: 49px;
+    /*font-size: 42px;*/
+    /*line-height: 47px;*/
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 40px;
 }
 .info_aur p{
     font-weight: normal;
-    /*font-size: 19px;*/
-    /*line-height: 28px;*/
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 19px;
+    line-height: 28px;
+    /*font-size: 17px;*/
+    /*line-height: 24px;*/
     color: #FFFFFF;
     margin-bottom: 40px;
 }
@@ -289,10 +289,10 @@ a:hover, a:focus, a:visited {
     background: rgba(13, 13, 13, 0.04);
 }
 .aur_number {
-    /*font-size: 36px;*/
-    /*line-height: 40px;*/
-    font-size: 34px;
-    line-height: 38px;
+    font-size: 36px;
+    line-height: 40px;
+    /*font-size: 34px;*/
+    /*line-height: 38px;*/
     text-align: center;
     letter-spacing: -0.01em;
     color: #22B483;
@@ -300,10 +300,10 @@ a:hover, a:focus, a:visited {
     font-weight: bold;
 }
 .info_number {
-    /*font-size: 16px;*/
-    /*line-height: 24px;*/
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    /*font-size: 14px;*/
+    /*line-height: 22px;*/
     text-align: center;
     color: #0D0D0D;
 }
@@ -383,6 +383,9 @@ a:hover, a:focus, a:visited {
 .m-b--16 {
     margin-bottom: 16px;
 }
+.m-b--24 {
+    margin-bottom: 24px;
+}
 .m-b--30 {
     margin-bottom: 30px;
 }
@@ -431,20 +434,20 @@ a:hover, a:focus, a:visited {
 }
 .info_section--text h2 {
     font-family: 'Inter-Bold',sans-serif;
-    /*font-size: 44px;*/
-    /*line-height: 49px;*/
-    font-size: 42px;
-    line-height: 47px;
+    font-size: 44px;
+    line-height: 49px;
+    /*font-size: 42px;*/
+    /*line-height: 47px;*/
     letter-spacing: -0.02em;
     color: #272F53;
     margin-bottom: 40px;
 }
 .info_section--text h4 {
     font-family: 'Inter-Bold',sans-serif;
-    /*font-size: 22px;*/
-    font-size: 20px;
-    /*line-height: 25px;*/
-    line-height: 23px;
+    font-size: 22px;
+    /*font-size: 20px;*/
+    line-height: 25px;
+    /*line-height: 23px;*/
     color: #272F53;
     margin-bottom: 16px;
     position: relative;
@@ -460,18 +463,18 @@ a:hover, a:focus, a:visited {
     border-radius: 50%;
 }
 .info_section--text--maxP {
-    /*font-size: 19px;*/
-    /*line-height: 28px;*/
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 19px;
+    line-height: 28px;
+    /*font-size: 17px;*/
+    /*line-height: 24px;*/
     color: #0D0D0D;
     margin-bottom: 40px;
 }
 .info_section--text--minP {
-    /*font-size: 16px;*/
-    /*line-height: 24px;*/
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    /*font-size: 15px;*/
+    /*line-height: 22px;*/
     color: #0D0D0D;
     margin-bottom: 24px;
 }
@@ -494,10 +497,10 @@ a:hover, a:focus, a:visited {
 }
 .steps-section h2{
     font-family: 'Inter-Bold',sans-serif;
-    /*font-size: 44px;*/
-    /*line-height: 49px;*/
-    font-size: 42px;
-    line-height: 47px;
+    font-size: 44px;
+    line-height: 49px;
+    /*font-size: 42px;*/
+    /*line-height: 47px;*/
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
@@ -505,10 +508,10 @@ a:hover, a:focus, a:visited {
 }
 .steps-section h4{
     font-family: 'Inter-Bold',sans-serif;
-    /*font-size: 22px;*/
-    /*line-height: 25px;*/
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 25px;
+    /*font-size: 20px;*/
+    /*line-height: 23px;*/
     color: #FFFFFF;
     margin-bottom: 12px;
     position: relative;
@@ -535,10 +538,10 @@ a:hover, a:focus, a:visited {
 }
 .method-section h2{
     font-family: 'Inter-Bold', sans-serif;
-    /*font-size: 44px;*/
-    /*line-height: 49px;*/
-    font-size: 42px;
-    line-height: 47px;
+    font-size: 44px;
+    line-height: 49px;
+    /*font-size: 42px;*/
+    /*line-height: 47px;*/
     text-align: center;
     letter-spacing: -0.02em;
     color: #272F53;
@@ -546,10 +549,10 @@ a:hover, a:focus, a:visited {
 }
 .method-section h4{
     font-family: 'Inter-Bold',sans-serif;
-    /*font-size: 22px;*/
-    /*line-height: 25px;*/
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 25px;
+    /*font-size: 20px;*/
+    /*line-height: 23px;*/
     text-align: center;
     color: #272F53;
     margin-bottom: 24px;
@@ -595,16 +598,6 @@ a:hover, a:focus, a:visited {
     background-color: #1F2747;
     color: #FFFFFF;
 }
-/*.footer-section .text-white a{*/
-/*    color: #FFFFFF!important;*/
-/*    text-decoration: underline;*/
-/*    opacity: 1!important;*/
-/*}*/
-/*.footer-section .navbar-brand {*/
-/*    padding-top: 28px;*/
-/*    padding-bottom: 48px;*/
-/*    margin-right: 44px;*/
-/*}*/
 .opacity072 {
     opacity: 0.72;
 }
@@ -866,7 +859,6 @@ button a{
     color: rgba(255, 255, 255, 0.4);
 }
 .free_btn {
-    /*margin-top: 32px;*/
     padding: 11px 24px;
     width: 100%;
     text-align: center;
@@ -917,6 +909,36 @@ select:after {
     text-transform: uppercase;
     color: #22B483;
     margin-bottom: 24px;
+}
+.blog-content .card-title {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1F2747;
+}
+.blog-content .card-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(13, 13, 13, 0.72);
+}
+.blog-content .card-body {
+    padding: 24px;
+}
+.more-btn {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #22b483;
+    font-size: 12px;
+}
+.card-mont-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgba(13, 13, 13, 0.44);
+    margin-bottom: 8px;
 }
 
 @media (min-width: 1200px){

@@ -29,11 +29,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jointohire Front end\Desktop\webSite\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jointohire Front end\Desktop\webSite\css" />
       <recent name="C:\Users\Jointohire Front end\Desktop\webSite\images" />
@@ -76,7 +79,7 @@
       <workItem from="1576589957464" duration="967000" />
       <workItem from="1576645878656" duration="11175000" />
       <workItem from="1576732921797" duration="20827000" />
-      <workItem from="1576819223783" duration="9466000" />
+      <workItem from="1576819223783" duration="17633000" />
     </task>
     <servers />
   </component>
