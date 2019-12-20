@@ -700,6 +700,7 @@ a:hover, a:focus, a:visited {
     border-radius: 4px;
     padding: 60px 43px;
     max-width: 280px;
+    margin: 10px;
 }
 .pricing-list .info_section--text--minP {
     margin-bottom: 32px;
