@@ -698,7 +698,8 @@ a:hover, a:focus, a:visited {
     box-sizing: border-box;
     box-shadow: 0 12px 48px rgba(13, 13, 13, 0.12);
     border-radius: 4px;
-    margin: 0 10px;
+    padding: 60px 43px;
+    max-width: 280px;
 }
 .pricing-list .info_section--text--minP {
     margin-bottom: 32px;
