@@ -95,6 +95,10 @@ a:hover, a:focus, a:visited {
     color: #1F2747;
     margin-bottom: 24px;
 }
+.pricing-list .title_h4_min {
+    margin-bottom: 58px;
+    position: relative;
+}
 .body_aur {
     max-width: 1600px;
     width: 100%;
@@ -694,6 +698,15 @@ a:hover, a:focus, a:visited {
     box-sizing: border-box;
     box-shadow: 0 12px 48px rgba(13, 13, 13, 0.12);
     border-radius: 4px;
+    margin: 0 10px;
+}
+.pricing-list .info_section--text--minP {
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    color: #0D0D0D;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
 }
 .pricing-list--ul .list-item {
     font-size: 16px;
@@ -713,6 +726,32 @@ a:hover, a:focus, a:visited {
 }
 .pricing-list--ul .list-item.active .fa-check{
     color: #22B483;
+}
+.popular-div {
+    position: relative;
+}
+.popular-div:after {
+    font-family: 'Inter-Bold', sans-serif;
+    content: 'MOST POPULAR';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 96px;
+    height: 19px;
+    border-radius: 0 0 3px 3px;
+    background-color: #E0463E;
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 auto;
+}
+.help-text {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
 }
 
 
