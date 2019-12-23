@@ -910,19 +910,26 @@ select:after {
     color: #22B483;
     margin-bottom: 24px;
 }
-.blog-content .card-title {
+.blog-content .card-title,
+.news-content .card-title ,
+.videos-content .card-title {
     font-family: 'Inter-Bold', sans-serif;
     font-size: 20px;
     line-height: 24px;
     color: #1F2747;
 }
-.blog-content .card-text {
+.videos-content .card-title {
+    margin-top: 17px;
+}
+.blog-content .card-text ,
+.news-content .card-text {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: rgba(13, 13, 13, 0.72);
 }
-.blog-content .card-body {
+.blog-content .card-body,
+.news-content .card-body {
     padding: 24px;
 }
 .more-btn {
@@ -940,7 +947,30 @@ select:after {
     color: rgba(13, 13, 13, 0.44);
     margin-bottom: 8px;
 }
-
+.card-left-aside {
+    background-color: #E0463E;
+    color: #FFFFFF;
+    padding: 22px;
+}
+.card-left-aside .card-mont-text span{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    display: block;
+}
+.news-content .card-mont-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+}
+.news-content .card {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
 @media (min-width: 1200px){
     .container1224 {
         max-width: 1254px;
