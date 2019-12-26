@@ -35,6 +35,11 @@ a, a:hover, a:focus, a:visited {
 a:hover, a:focus, a:visited {
     color: inherit;
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #1F2747;
+}
 .title_h1 {
     font-family: 'Inter-Bold', sans-serif;
     font-size: 56px;
