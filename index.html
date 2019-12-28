@@ -90,25 +90,25 @@
         </div>
         <main role="main">
             <section>
-                <div class="d-flex justify-content-center aur_numbers flex-sm-wrap flex-wrap">
-                    <div class="ph-40">
-                        <div class="aur_number">40</div>
+                <div class="numbers d-flex justify-content-center aur_numbers flex-sm-wrap flex-wrap">
+                    <div class="ph-40 number-item">
+                        <div class="aur_number value">40</div>
                         <div class="info_number">Markets</div>
                     </div>
                     <div class="ph-40">
-                        <div class="aur_number">50</div>
+                        <div class="aur_number value">50</div>
                         <div class="info_number">Indexes</div>
                     </div>
                     <div class="ph-40">
-                        <div class="aur_number">100</div>
+                        <div class="aur_number value">100</div>
                         <div class="info_number">Sectors</div>
                     </div>
                     <div class="ph-40">
-                        <div class="aur_number">6 000</div>
+                        <div class="aur_number value">6000</div>
                         <div class="info_number">Stocks</div>
                     </div>
                     <div class="ph-40">
-                        <div class="aur_number">15 000</div>
+                        <div class="aur_number value">15000</div>
                         <div class="info_number">Investment Funds</div>
                     </div>
                 </div>
@@ -351,17 +351,48 @@
             </section>
         </footer>
     </div>
-    <script>
-        setTimeout(function(){
-            document.getElementById("body-wrapper").style.display = "block"
-            document.getElementById("fadeInUp").classList.add("fadeInUp");
-            }, 2000);
-        function myFunction() {
-            document.getElementById("body-wrapper").style.display = "none";
-        }
-    </script>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        document.getElementById("body-wrapper").style.display = "block"
+        document.getElementById("fadeInUp").classList.add("fadeInUp");
+    }, 2000);
+    function myFunction() {
+        document.getElementById("body-wrapper").style.display = "none";
+    }
+
+
+    var section = document.querySelector('.numbers');
+    var hasEntered = false;
+
+    window.addEventListener('scroll', (e) => {
+        var shouldAnimate = (window.scrollY + window.innerHeight) >= section.offsetTop;
+
+        if (shouldAnimate && !hasEntered) {
+            hasEntered = true;
+
+            $('.value').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
+        }
+    });
+</script>
+
 </body>
 </html>
