@@ -222,7 +222,6 @@ a:hover, a:focus, a:visited {
     font-family: 'Inter-Regular', sans-serif;
     background: #272F53;
     border-radius: 4px;
-    border: 0;
     outline:none;
     color: #FFFFFF;
     padding: 12px 24px;
@@ -232,6 +231,7 @@ a:hover, a:focus, a:visited {
     line-height: 20px;
     margin-right: 8px;
     transition: all 0.2s;
+    border: 1px solid transparent;
 }
 .btn_light_blue:hover {
     background: #FFFFFF;
@@ -289,6 +289,9 @@ a:hover, a:focus, a:visited {
     color: #FFFFFF;
     margin-bottom: 40px;
 }
+.number-item {
+    width: 200px;
+}
 .aur_numbers {
     padding: 80px;
     background: rgba(13, 13, 13, 0.04);
@@ -311,7 +314,6 @@ a:hover, a:focus, a:visited {
     /*line-height: 22px;*/
     text-align: center;
     color: #0D0D0D;
-    min-width: 100px;
 }
 .over-hidden {
     overflow: hidden;
@@ -634,13 +636,19 @@ a:hover, a:focus, a:visited {
     content: '';
     position: absolute;
     background-image: url("images/element2.png");
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*z-index: -1;*/
+    /*background-position: -5% -15%;*/
+    background-repeat: no-repeat;
+    width: 43%;
+    height: 68%;
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-position: -5% -15%;
-    background-repeat: no-repeat;
+    background-position: inherit;
 }
 .bg-dark {
     background: #1F2747!important;
@@ -1017,12 +1025,24 @@ select:after {
         padding-right: 30px!important;
     }
 }
+@media only screen and (min-width: 769px) and (max-width: 991px){
+    .p-lr--90 {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+}
 @media screen and (max-width: 768px) {
     .wrap{
         flex-wrap: wrap;
     }
     .reverse {
         flex-wrap: wrap-reverse;
+    }
+    .header-bg {
+        padding: 0 15px;
+    }
+    .header-content {
+        padding-top: 80px;
     }
     .p-r--230 {
         padding-right: 0;
@@ -1041,13 +1061,74 @@ select:after {
     .aur_numbers {
         padding: 30px;
     }
+    .method-section {
+        padding: 120px 30px;
+    }
     .method-section img {
         width: 100%;
     }
-}
-@media only screen and (min-width: 769px) and (max-width: 991px){
-    .p-lr--90 {
-        padding-right: 0!important;
+    .method-col {
+        padding: 0;
+    }
+    .body-wrapper--footer {
+        padding: 36px;
+    }
+    .body-wrapper--footer p{
+       margin-bottom: 20px!important;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .info_aur {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .info_number {
+        margin-bottom: 20px;
+    }
+    .aur_number {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .get-start-section {
+        padding: 30px;
+    }
+    .row {
+        margin: 0!important;
+        padding: 0!important;
+    }
+    .container1224 {
+        padding: 0 30px!important;
+    }
+
+    .btn_light_blue, .btn_green {
+        padding: 12px 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .info_aur h1, .info_section--text h2, .steps-section h2, .steps-section h2, .title_h2-white {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .info_aur p, .info_section--text--maxP {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-section .pl-3 {
         padding-left: 0!important;
+    }
+    .footer-section .justify-content-around {
+       justify-content: start!important;
+        flex-direction: column;
+    }
+    .body_aur .footer-section .nav-item.nav-link {
+        padding: 0;
+    }
+    img {
+        width: 100%;
+    }
+    .about-header-section {
+        padding: 0 30px;
     }
 }
