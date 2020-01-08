@@ -821,6 +821,9 @@ a:hover, a:focus, a:visited {
 .btn-link.collapsed .fa-angle-up:before {
     content: "\f107";
 }
+.collapse.navbar-collapse {
+    justify-content: space-between;
+}
 .card-header-qa {
     padding: 26px 32px;
 }
@@ -1009,9 +1012,9 @@ select:after {
     }
 }
 @media screen and  (max-width: 1199px){
-  .info_aur{
-      padding-left: 80px;
-  }
+    .info_aur {
+        padding-left: 80px;
+    }
     .p-r--188 {
         padding-right: 30px;
     }
@@ -1024,11 +1027,32 @@ select:after {
     .p-r--122 {
         padding-right: 30px!important;
     }
+    .agree-btn {
+        height: 42px;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px){
     .p-lr--90 {
         padding-right: 0!important;
         padding-left: 0!important;
+    }
+}
+@media only screen and (max-width: 991px){
+    .body_aur header .nav-item.nav-link {
+        padding: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    .p-r--104 {
+        padding-right: 0;
+    }
+    .title_h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .navbar-collapse.collapse.show {
+        padding-bottom: 30px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -1048,8 +1072,12 @@ select:after {
         padding-right: 0;
     }
     .p-lr--62 {
-           padding-left: 0;
-           padding-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container.p-lr--62 {
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .p-lr--90 {
         padding-right: 30px;
@@ -1079,6 +1107,9 @@ select:after {
         font-size: 14px;
         line-height: 20px;
     }
+    .info_aur+div{
+        margin-top: 20px;
+    }
     .info_aur {
         padding-left: 30px;
         padding-right: 30px;
@@ -1091,6 +1122,9 @@ select:after {
         line-height: 40px;
         margin-bottom: 10px;
     }
+    .info_section.iPadPro1 {
+        padding: 30px;
+    }
     .get-start-section {
         padding: 30px;
     }
@@ -1098,10 +1132,12 @@ select:after {
         margin: 0!important;
         padding: 0!important;
     }
-    .container1224 {
+    .navbar .container1224 {
         padding: 0 30px!important;
     }
-
+    .footer-section .container1224 {
+        padding: 0 30px!important;
+    }
     .btn_light_blue, .btn_green {
         padding: 12px 10px;
         font-size: 14px;
@@ -1125,10 +1161,22 @@ select:after {
     .body_aur .footer-section .nav-item.nav-link {
         padding: 0;
     }
-    img {
-        width: 100%;
-    }
     .about-header-section {
         padding: 0 30px;
+    }
+    .p-l--50 {
+        padding-left: 30px;
+    }
+    .assigment-footer {
+        justify-content: space-between;
+    }
+    .assigment-footer .flex-1{
+        flex: inherit;
+    }
+    .green-title {
+        margin-top: 20px;
+    }
+    .between-to-center {
+        justify-content: center!important;
     }
 }
