@@ -1030,6 +1030,9 @@ select:after {
     .agree-btn {
         height: 42px;
     }
+    .content-about img {
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px){
     .p-lr--90 {
@@ -1082,6 +1085,9 @@ select:after {
     .p-lr--90 {
         padding-right: 30px;
         padding-left: 30px;
+    }
+    .about-header-section {
+        text-align: center;
     }
     .pricing-list {
         margin-bottom: 24px;
@@ -1178,5 +1184,8 @@ select:after {
     }
     .between-to-center {
         justify-content: center!important;
+    }
+    .content-about .title_h3 {
+        margin-top: 20px;
     }
 }
