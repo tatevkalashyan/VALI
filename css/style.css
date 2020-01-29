@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../fonts/SegoeUI.eot');
+    src: url('../fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI.svg#SegoeUI') format('svg'),
+    url('../fonts/SegoeUI.ttf') format('truetype'),
+    url('../fonts/SegoeUI.woff') format('woff'),
+    url('../fonts/SegoeUI.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('../fonts/SegoeUIBold.eot');
+    src: url('../fonts/SegoeUIBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUIBold.svg#SegoeUIBold') format('svg'),
+    url('../fonts/SegoeUIBold.ttf') format('truetype'),
+    url('../fonts/SegoeUIBold.woff') format('woff'),
+    url('../fonts/SegoeUIBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'SegoeUI', sans-serif;
+    font-size: 16px;
+}
+a, a:hover, a:focus, a:visited {
+    text-decoration: none;
+
+}
+button:focus {
+    outline: none!important;
+}
+
+.flex-1 {
+    flex: 1;
+}
+.fs-13 {
+    font-size: 13px!important;
+}
+.header-fix {
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    height: 110px;
+    box-shadow: 0 3px 15px #2E2E2E1A;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    width: 100%;
+}
+.left-sidebar {
+    height: 100%;
+    width: 378px;
+    background-color: #EBEBEB ;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 110px;
+}
+.left-sidebar .nav.nav-tabs li a {
+    text-align: left;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0;
+    color: #2E2E2E;
+    padding: 10px 0 10px 97px;
+    width: 100%;
+    display: inline-block;
+}
+.left-sidebar .nav.nav-tabs li a.active {
+    font-weight: bold;
+    color: #352245;
+    background-color: #f3f3f3;
+}
+.left-sidebar .nav.nav-tabs li:hover {
+    background-color: #f3f3f3;
+}
+.left-sidebar .nav.nav-tabs li:hover a {
+    font-weight: bold;
+    color: #352245;
+}
+.main-content {
+    margin-left: 378px;
+    width: calc(100% - 378px);
+    padding: 30px 50px;
+    background: #ffffff;
+}
+.nav.nav-tabs {
+    flex-direction: column;
+    border-bottom: 0;
+    padding: 30px 0;
+}
+
+.sidebar-header {
+    padding: 40px 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar_img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: red;
+    margin-right: 16px;
+}
+.avatar_email {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-right: auto;
+}
+.avatar_content {
+    border-bottom: 1px solid #BABABA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.btn_dark {
+    font-family: 'SegoeUIBold', sans-serif;
+    background-color: #352245;
+    border-radius: 20px;
+    padding: 9px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    margin: 5px auto;
+    transition: all 0.3s;
+    text-align: center;
+    width: 100%;
+}
+.btn_dark:hover {
+    background-color: #fff;
+    color: #352245;
+    border: 1px solid #352245;
+}
+.btn-w-240 {
+    max-width: 240px;
+    height: 40px;
+}
+.btn-w-152 {
+    max-width: 152px;
+    height: 40px;
+}
+.title-bold-24 {
+    text-align: left;
+    font: Bold 24px/32px Segoe UI;
+    letter-spacing: 0;
+    color: #2E2E2E;
+}
+.title-light-24 {
+    text-align: left;
+    font: 24px/32px SegoeUI;
+    letter-spacing: 0;
+    color: #2E2E2E;
+}
+
+.btn-light {
+    background-color: #352245;
+    border-radius: 20px;
+    opacity: 0.5;
+    font: 16px/21px SegoeUIBold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    margin: 5px 12px 5px 0;
+    transition: all 0.3s;
+    text-align: center;
+    width: 100%;
+}
+.btn-light:hover {
+    background-color: #fff;
+    color: #352245;
+    border: 1px solid;
+}
+.event_img_area {
+    display: flex;
+    width: 320px;
+    height: 152px;
+    overflow: hidden;
+    /*flex: 1;*/
+    margin-right: 37px;
+}
+.event_img_area img{
+    width: 100%;
+}
+.event_link, .btn-link, .btn-link a{
+    font-family: "SegoeUIBold", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #352245;
+    margin-right: 75px;
+    text-underline: none;
+}
+.v_input {
+    height: 48px;
+    border: 1px solid #D7D7D7;
+    border-radius: 24px;
+    margin-bottom: 18px;
+    color: #C5C5C5;
+    outline: 0;
+    width: 100%;
+    padding: 0 30px;
+}
+.v_textarea {
+    border: 1px solid #D7D7D7;
+    border-radius: 13px;
+    margin-bottom: 18px;
+    color: #C5C5C5;
+    outline: 0;
+    width: 100%;
+    padding: 15px;
+}
+.v-label {
+    font-family: 'SegoeUI', sans-serif;
+    color:  #C5C5C5;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 8px;
+    display: inherit;
+    padding-left: 30px;
+}
+.v_table  {
+    margin-bottom: 0;
+}
+.v_table thead th {
+    border: 0;
+}
+.v_table  thead{
+    background-color: #ccc;
+}
+.v_table  thead tr{
+    background-color: #ccc;
+}
+.v-input-icon {
+    position: absolute;
+    right: 25px;
+    top: 8px;
+}
+.graphic_btn {
+    border: 0;
+    background-color: #EBEBEB;
+    font-size: 13px;
+    line-height: 21px;
+    width: 200px;
+    height: 34px;
+    color: #000;
+    transition: all 0.3s;
+    margin-right: 46px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    padding-top: 6px;
+}
+.graphic_btn:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 6px;
+    top: 8px;
+}
+.yellow.graphic_btn:before  {
+    background-color: #ffde59;
+}
+.purple.graphic_btn:before  {
+    background-color: #e2c5e2;
+}
+.purple-light.graphic_btn:before  {
+    background-color: #ccc7d0;
+}
+.graphic_btn.active:before {
+    content: '';
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #ffde59;
+    left: 8px;
+    top: 7px;
+}
+.graphic_btn.active {
+    width: 240px;
+    height: 40px;
+}
+.p_regular {
+    font-size: 16px;
+    line-height: 19px;
+    color: #707070;
+}
+.vali-card {
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-right: 70px;
+}
+.vali-card .card-title,
+.payment-card .card-title{
+    font-size: 18px;
+   font-family: "SegoeUIBold", sans-serif;
+}
+.btn-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.payment-card {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.payment-card .btn-light{
+    text-align: center;
+    font-size: 13px;
+}
+.yellow-list li::before {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    color: #ffde59;
+}
+.add-photo-area {
+    background-color: #ebebeb;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.add-photo-area>div {
+     padding: 150px;
+}
+.add-photo-area>div .btn_dark{
+    margin-right: auto;
+    margin-left: 0;
+}
+.avatar-img-area {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: #ddd;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-card {
+    border: 1px solid #ccc;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}

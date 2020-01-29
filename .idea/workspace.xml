@@ -7,11 +7,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,8 +34,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -98,7 +104,24 @@
       <workItem from="1578907991614" duration="956000" />
       <workItem from="1578911675093" duration="740000" />
       <workItem from="1578912546251" duration="28000" />
-      <workItem from="1578912637738" duration="1285000" />
+      <workItem from="1578912637738" duration="1894000" />
+      <workItem from="1578982623035" duration="1200000" />
+      <workItem from="1579070435417" duration="2362000" />
+      <workItem from="1579157601560" duration="133000" />
+      <workItem from="1579157942551" duration="20000" />
+      <workItem from="1579169385050" duration="3636000" />
+      <workItem from="1579246672152" duration="13000" />
+      <workItem from="1579246878391" duration="1591000" />
+      <workItem from="1579501424085" duration="4249000" />
+      <workItem from="1579527140603" duration="627000" />
+      <workItem from="1579588695983" duration="4420000" />
+      <workItem from="1579672422851" duration="4000" />
+      <workItem from="1579672810167" duration="2440000" />
+      <workItem from="1579773766383" duration="10861000" />
+      <workItem from="1579845286766" duration="17210000" />
+      <workItem from="1580105825700" duration="17508000" />
+      <workItem from="1580192597630" duration="4780000" />
+      <workItem from="1580277772360" duration="11401000" />
     </task>
     <servers />
   </component>
@@ -110,14 +133,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="90" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578912553776" />
-    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1576137833352">
+    <state x="718" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579851290803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576137833352" />
+    <state x="718" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1579851290803" />
+    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1579609412742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579609412742" />
     <state x="461" y="145" key="SettingsEditor" timestamp="1575894261983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575894261983" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580277772995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580277772995" />
     <state x="594" y="23" width="731" height="993" key="find.popup" timestamp="1578467042533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -6,353 +6,526 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Aurora</title>
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VALI</title>
 </head>
 <body>
-    <div class="body_aur">
-        <div class="body-wrapper" id="body-wrapper">
-            <div>
-                <div class="body-wrapper--content" onclick="myFunction()"></div>
-                <div class="body-wrapper--footer d-flex justify-content-around wrap align-items-center" id="fadeInUp">
-                    <p class="info_section--text--minP text-white mb-0">
-                        This website uses cookies to collect statistics about our visitors and to help us analyze how the site is used.
-                        <br>
-                         By clicking "I agree" you agree to our use of cookies and similar technologies. Please see our privacy policy.
-                    </p>
-                    <button class="btn_green w-280 agree-btn ml-2" onclick="myFunction()">I AGREE</button>
+<header class="header-fix d-flex align-items-center">
+    <div class="header-content">
+        <img src="images/VALITICKET-4.png" alt="logo">
+    </div>
+</header>
+
+<div class="m-t--110">
+    <div class="left-sidebar">
+        <div class="sidebar-header">
+            <div class="avatar_content">
+                <div class="avatar_img">
+                    <img src="" alt="">
                 </div>
+                <span class="avatar_email">example.example@gmail.com</span>
             </div>
         </div>
-        <div class="header-bg">
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-dark bg_header_dark p-0">
-                    <div class="container container1224">
-                        <a class="navbar-brand" href="http://greatexpertdev.site/projects/aurora">
-                            <img src="images/Logo/Aurora.png" alt="logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <div class="dropdown show">
-                                    <a class="nav-item nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       Learn <i class="fa fa-angle-down"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="http://greatexpertdev.site/projects/aurora/news.html">News</a>
-                                        <a class="dropdown-item" href="http://greatexpertdev.site/projects/aurora/blog.html">Blog</a>
-                                        <a class="dropdown-item" href="http://greatexpertdev.site/projects/aurora/videos.html">Videos</a>
-                                    </div>
-                                </div>
-<!--                                <a class="nav-item nav-link" href="#">Learn</a>-->
-                                <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
-                                <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
-                                <a class="nav-item nav-link" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
-                            </div>
-                            <div class="d-flex align-items-center">
-
-                                <button class="btn_light_blue">
-                                    <a href="http://greatexpertdev.site/projects/aurora/signIn.html">Sign In</a>
-                                </button>
-                                <button class="btn_green">
-                                    <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
-                                </button>
-                                <div class="d-flex align-items-center ml-3">
-                                    <select id="sel-lang" class="sel-lang">
-                                        <option value="en">en</option>
-                                        <option value="heb">hebrew</option>
-                                    </select>
-                                    <i class="fa fa-angle-down text-white"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-            <div class="header-content">
-                <div class="d-flex justify-content-between align-items-center wrap">
-                    <div class="info_aur col-md-6">
-                        <h1>Be Independent. <br> Explore investment opportunities</h1>
-                        <p>A new way to analize, challenge & empower self-management investment decisions while saving money on broker fees</p>
-                        <button class="btn_green">
-                            <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started for Free</a>
-                        </button>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/aur_header_pic.png" alt="info-picture" style="width: 100%">
-                    </div>
-                </div>
-            </div>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Events</a></li>
+            <li><a data-toggle="tab" href="#menu1">Find Orders</a></li>
+            <li><a data-toggle="tab" href="#menu2">Reports</a></li>
+            <li><a data-toggle="tab" href="#menu3">Payment Configuration</a></li>
+            <li><a data-toggle="tab" href="#menu4">Organizer Page</a></li>
+            <li><a data-toggle="tab" href="#menu5">Calendar</a></li>
+            <li><a data-toggle="tab" href="#menu6">Invoices</a></li>
+            <li><a data-toggle="tab" href="#menu7">Notifications</a></li>
+            <li><a data-toggle="tab" href="#menu8">My Tickets</a></li>
+            <li><a data-toggle="tab" href="#menu9">Integrations</a></li>
+            <li><a data-toggle="tab" href="#menu10">Account</a></li>
+        </ul>
+        <div class="d-flex flex-column justify-content-center">
+            <button class="btn_dark btn-w-240">Create New Event</button>
+            <button class="btn_dark btn-w-240">Create New Organization</button>
         </div>
-        <main role="main">
-            <section>
-                <div class="numbers d-flex justify-content-center aur_numbers flex-sm-wrap flex-wrap">
-                    <div class="number-item">
-                        <div class="aur_number value">40</div>
-                        <div class="info_number">Markets</div>
+    </div>
+    <div class="main-content">
+        <div class="tab-content w-80">
+            <div id="home" class="tab-pane fade in active show">
+                <div>
+                    <h3 class="title-bold-24">Events</h3>
+                    <div class="d-flex align-items-center p-tb--60 flex-wrap">
+                        <button class="btn-light btn-w-152">Current <span class="current_number">(0)</span></button>
+                        <button class="btn-light btn-w-152">Drafts  <span class="current_number">(1)</span></button>
+                        <button class="btn-light btn-w-152">Ended <span class="current_number">(0)</span></button>
+                        <button class="btn-light btn-w-152">Archived <span class="current_number">(0)</span></button>
                     </div>
-                    <div class="number-item">
-                        <div class="aur_number value">50</div>
-                        <div class="info_number">Indexes</div>
-                    </div>
-                    <div class="number-item">
-                        <div class="aur_number value">100</div>
-                        <div class="info_number">Sectors</div>
-                    </div>
-                    <div class="number-item">
-                        <div class="aur_number value">6000</div>
-                        <div class="info_number">Stocks</div>
-                    </div>
-                    <div class="number-item">
-                        <div class="aur_number value">15000</div>
-                        <div class="info_number">Investment Funds</div>
-                    </div>
-                </div>
-            </section>
-            <section class="info_section p-l--122 iPadPro1">
-                <div class="d-flex align-items-center wrap">
-                    <div class="col-12 col-md-6 p-0">
-                        <img src="images/iPadPro.png" alt="iPadPro" class="iPadPro1" style="width: 100%">
-                    </div>
-                    <div class="info_section--text p-r--188 p-l--24 col-12 col-md-6">
-                        <h2>Lighting the world <br> of investment for you</h2>
-                        <ul class="list-unstyled p-l--26">
-                            <li class="m-b--32">
-                                <h4 class="aur-circle-icon">Research & Analysis</h4>
-                                <p class="info_section--text--minP">
-                                    Systematic, imapartial and comparabale analysis & research foe stocks, funds and portfolio diagnosis
-                                </p>
-                            </li>
-                            <li class="m-b--32">
-                                <h4 class="aur-circle-icon">Coverage</h4>
-                                <p class="info_section--text--minP">
-                                    Covering more than 400 markets, 100 industries, 6,000 stocks, 15,000 funds and 1,200 ETF
-                                </p>
-                            </li>
-                            <li>
-                                <h4 class="aur-circle-icon">Portfolio & Diagnostic</h4>
-                                <p class="info_section--text--minP">
-                                    Control your portfolio quailty. Easy way to monitor and rebalance your portfolio
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="steps-section">
-                <div class="container">
-                    <h2>Do It By Yourself</h2>
-                    <div class="d-flex wrap">
-                        <div class="p-l--50 p-r--30 col-12 col-md-4 text-center">
-                            <div class="step-num">01</div>
-                            <h4>Analyse</h4>
-                            <p>Explore markets, industry, stocks and funds.</p>
-                        </div>
-                        <div class="p-l--50 p-r--30 col-12 col-md-4 text-center">
-                            <div class="step-num">02</div>
-                            <h4>Define portfolios</h4>
-                            <p>Select and compare stocks and funds, add to watch lists</p>
-                        </div>
-                        <div class="p-l--50 p-r--30 col-12 col-md-4 text-center">
-                            <div class="step-num">03</div>
-                            <h4>Get diagnostic</h4>
-                            <p>Conduct simulation analysis of investment portfolio</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="info_section p-l--188 p-t--120 iPadPro2">
-                <div class="d-flex align-items-center wrap">
-                    <div class="info_section--text col-12 col-md-6">
-                        <h2>Get What You Need <br> For Investing</h2>
-                        <p class="info_section--text--maxP">Aurora is a platform foridentifying, analyzing,
-                            and evaluating securities that provide investment portfolio
-                            ideas and analysis, thus enabling control of yourportfolio.</p>
-
-                       <div class="d-flex">
-                           <ul class="list-unstyled p-l--26 p-r--24 w-50">
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       Securities that you have not yet known in 40 markets, 100 industries,
-                                       6000 subscribers, 1,500 investment funds and 1,000 ETFs
-                                   </p>
-                               </li>
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       Simple, consistent and transparent methodology
-                                   </p>
-                               </li>
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       Updated twice a week
-                                   </p>
-                               </li>
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       in Hebrew
-                                   </p>
-                               </li>
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       User-Friendly and easy to use
-                                   </p>
-                               </li>
-                           </ul>
-                           <ul class="list-unstyled  p-l--26 p-r--24 w-50">
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       Portfolio Diagnostic
-                                   </p>
-                               </li>
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       Do it yourself - Save costs
-                                   </p>
-                               </li>
-                               <li>
-                                   <p class="info_section--text--minP aur-plus-icon">
-                                       Based on analyzes by theScreener,
-                                       a  Swiss world leader in the field over 19 years
-                                   </p>
-                               </li>
-                           </ul>
+                    <div class="d-flex align-items-center flex-wrap">
+                       <div class="event_img_area">
+                           <img src="images/MaskGroup5.png" alt="" >
                        </div>
-                    </div>
-                    <div class=" col-12 col-md-6 p-0  p-r--122">
-                        <img src="images/iPadPro.png" alt="iPadPro" class="picIPad2" style="width: 100%">
-                    </div>
+                       <div>
+                           <h3 class="title-bold-24 m-b--20">Lorem Ipsum</h3>
+                           <p class="m-b--40">Mon, Dec 23,2019, 4:00pm-7:00pm</p>
+                           <div>
+                               <a href="#" class="event_link">View Live Page</a>
+                               <a href="#" class="event_link">Edit Event Page</a>
+                               <a href="#" class="event_link">Archive</a>
+                           </div>
+                       </div>
+                   </div>
+                    <button class="btn_dark w-320 m-t--57">Manage Event</button>
                 </div>
-            </section>
-            <section class="method-section">
-                <div class="container container1128">
-                    <h2>Method</h2>
-                    <div class="row d-flex justify-content-center wrap">
-                        <div class="text-center method-col col-12 col-lg-4">
-                            <img src="images/method1.png" alt="">
-                            <h4 class="m-t--57">Star Rating System</h4>
-                            <p>
-                                The granting of "stars" allows you to identify quality stocks quickly and easily. A similar assessment is madefor funds.
-                                Therefore, a stock can earn a maximum of four stars. The lowest rating is with no stars.
-                            </p>
-                        </div>
-                        <div class="text-center method-col col-12 col-lg-4">
-                            <img src="images/method2.png" alt="">
-                            <h4 class="m-t--35">Sensitivity</h4>
-                            <p>
-                                Stock price developments are generally volatile and contain high sensitivity that can result in a total loss.
-                                Based on their historical behavior, stocks are classified by sensitivity level.
-                                These sensitivity levels have to be considered solely in relative historical comparison to other stocks.
-                                Please note that even « Low Sensitivity » stocks are equities and, therefore, high-sensitivity investments
-                                that can lose up to all of their value and that past performance is no indication of current or future performance.
-                            </p>
-                        </div>
-                        <div class="text-center method-col col-12 col-lg-4">
-                            <img src="images/method3.png" alt="">
-                            <h4 class="m-t--45">Global Evaluation</h4>
-                            <p>
-                                A global assessment providesa quick and straight forward estimate of stocks and investment funds.
-                                It combines financial and technical analyses (valuation, update profits, technical factors,
-                                and group reference indices) with sensitivity analysis. A better assessment of the individual parameters leads to a better global assessment.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <section class="get-start-section">
-                <div class="container">
-                    <h2 class="title_h2-white">Want To Get Started?</h2>
-                    <p>Try our service and see for yourself. You will have free trial version available.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Order Search</h3>
                     <form action="">
                         <div>
-<!--                            <input type="email" class="aur-input" placeholder="E-mail">-->
-                            <button class="btn_green">
-                                <a href="http://greatexpertdev.site/projects/aurora/registration.html">Get Started</a>
-                            </button>
+                            <div class="d-flex flex-column w-50">
+                                <label for="email" class="v-label">Search for orders across all of your events.</label>
+                                <input type="email" placeholder="Email" id="email" class="v_input w-50">
+                            </div>
+                            <div class="w-50 relative">
+                                <input type="search" placeholder="Input your search here..." class="v_input">
+                                <span class="v-input-icon"> <img src="images/magnifying-glass%20.png" alt=""></span>
+                            </div>
                         </div>
                     </form>
+                    <button class="btn_dark w-320 m-t--57">Manage Event</button>
+                    <h3 class="title-light-24 m-b--24 m-t--57">Results</h3>
+                    <div style="    border: 1px solid #ccc; border-radius: 10px 10px 0 0;  overflow: hidden;">
+                        <table class="table v_table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Purchaser</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Event</th>
+                                <th scope="col">Tickets</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </section>
-            <hr class="m-0">
-            <section class="footer-section">
-                <div class="navbar navbar-expand-lg navbar-dark bg_header_dark p-0">
-                    <div class="container container1224">
-                        <div class="d-flex flex-column p-t--28">
-                            <div class="d-flex  m-b--32 wrap assigment-footer">
-                                <div class="d-flex flex-column">
-                                    <a class="m-b--52" href="http://greatexpertdev.site/projects/aurora">
-                                        <img src="images/Logo/Aurora.png" alt="logo">
-                                    </a>
-                                    <div class="d-flex flex-column opacity072 text-left">
-                                        <p><a href="" class="nav-item nav-link opacity072 fs-13 p-0">2019 © Aurora Investing</a></p>
-                                        <p>
-                                            <a class="nav-item nav-link opacity072 fs-13 p-0" href="http://greatexpertdev.site/projects/aurora/terms.html">Terms & Conditions</a>
-                                        </p>
-                                        <p>
-                                            <a class="nav-item nav-link opacity072 fs-13 p-0" href="#">Privacy Statement</a>
-                                        </p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Reports</h3>
+                    <div>
+                        <form action="" class="d-flex align-items-center">
+                            <span class="m-r--16 w-10 text-right title-light-24">Sales</span>
+                            <div class="form-group w-50 m-b--0">
+                                <label for="vali-select" class="v-label">From the last</label>
+                                <select name="select" id="vali-select" class="v_input w-50">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                        </form>
+                        <div class="d-flex flex-column m-b--80">
+                            <ul class="d-flex m-b--48 m-t--57 list-unstyled list-inline">
+                                <li class="graphic_btn active yellow">Gross ending in 2020</li>
+                                <li class="graphic_btn purple">Gross ending in 2019</li>
+                                <li class="graphic_btn purple-light">Gross ending in 2018</li>
+                            </ul>
+                            <img src="images/grphic.png" alt="graphic">
+                        </div>
+                        <div class="m-b--60">
+                            <h3 class="title-light-24">Downloadable Reports</h3>
+                            <p class="p_regular m-b--16">These reports may take some time to generate. To combat this we have enabled reports to be sent to an email that you specify.
+                                <br> Please allow a few minutes for this report to send once you have submitted your email.</p>
+                            <div class="d-flex flex-wrap">
+                                <div class="card vali-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">List of All Attendees</h5>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <button class="btn-light max-w--60">CSV</button>
+                                            <button class="btn-light max-w--60">Email</button>
+                                        </div>
+                                        <p class="p_regular">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div>
+                                            <input type="email" class="v_input" placeholder="Email">
+                                        </div>
+                                        <button class="btn_dark max-w--120">Request</button>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-around wrap flex-1 p-t--24">
-                                    <div class="d-flex justify-content-around flex-column">
-                                        <h5 class="green-title pl-3">Menu</h5>
-                                        <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/howItWorks.html">How It Works<span class="sr-only">(current)</span></a>
-                                        <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/pricing.html">Pricing</a>
-                                        <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/about.html">About Us</a>
-                                        <a class="nav-item nav-link opacity072 m-b--16" href="http://greatexpertdev.site/projects/aurora/q&a.html">Q&A</a>
-                                        <a class="nav-item nav-link opacity072 m-b--16" href="#">News</a>
-                                        <a class="nav-item nav-link opacity072 m-b--16" href="#">Blog</a>
-                                        <a class="nav-item nav-link opacity072" href="#">Videos</a>
-                                    </div>
-                                    <div class="fs-13">
-                                        <h5 class="green-title">Help</h5>
-                                        <p class="text-white">
-                                            <span class="opacity072">Support for registrations and packages:</span>
-                                            <br>
-                                            <a href="mailto:auroraregistration@sdisglobal.com" target="_blank" class="text-white">
-                                                auroraregistration@sdisglobal.com
-                                            </a>
-                                        </p>
-                                        <p class="text-white">
-                                            <span class="opacity072">Technical Support:</span>
-                                            <br>
-                                            <a href="mailto:aurorasupport@sdisglobal.com" target="_blank" class="text-white">
-                                                aurorasupport@sdisglobal.com
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <div class="d-flex flex-column opacity072 text-left">
-                                        <h5 class="green-title">Follow Us</h5>
-                                        <div class="d-flex">
-                                            <img src="images/linked.png" alt="linkedIn" class="mr-2" style=' width: 40px; height: 40px'>
-                                            <img src="images/insta.png" alt="instagram" style='width:40px ; height: 40px'>
+                                <div class="card vali-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Report of All Sales</h5>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <button class="btn-light max-w--60">CSV</button>
+                                            <button class="btn-light max-w--60">Email</button>
                                         </div>
+                                        <p class="p_regular">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div>
+                                            <input type="email" class="v_input" placeholder="Email">
+                                        </div>
+                                        <button class="btn_dark max-w--120">Request</button>
                                     </div>
                                 </div>
                             </div>
-                            <p class="copyright-text m-b--48">
-                                The system provides financial information and data to help you identify investment ideas.
-                                However, we do not advise you or guide you about this, or what products to purchase or sell – these
-                                decisions are yours only.SDIS and the system are not subject to the series, and SDIS does not hold a license
-                                for investment consultancy, investment marketing or investment portfolio management under any law.
-                                The content provided on the system is independent and not based or tailored to your personal circumstances,
-                                To your needs or for your purposes, and should not be relied on as an estimate of profitability or the suitability
-                                of an investment in a particular stock for any purpose.
-                                Past performance is not a guarantee of present or future performance. Investments may lose its full value.
-                            </p>
+                        </div>
+                        <div>
+                            <h3 class="title-light-24">Sales Report by Date Range</h3>
+                            <p class="p_regular m-b--16">Select a report. Once you have selected a report, you will be able to filter that report by time.</p>
+                            <p class="p_regular m-b--16">Time zone: UTC</p>
+                            <div class="m-t--35">
+                              <ul class="list-unstyled d-flex">
+                                  <li class="mr-4 btn-link"><a href="">View By Ticket Type</a></li>
+                                  <li class="mr-4 btn-link"><a href="">View By Ticket Type And Event</a></li>
+                              </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </footer>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Payment Configuration</h3>
+                    <p class="p_regular">These reports may take some time to generate. To combat this we have enabled reports to be sent to an email that you specify.
+                        <br> Please allow a few minutes for this report to send once you have submitted your email.</p>
+                    <h3 class="title-light-24">Currency</h3>
+                    <p class="p_regular">Canadian Dollar (C$) <a href="#" style="color: black">edit</a></p>
+                    <div class="card payment-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Stripe</h5>
+                            <button class="btn-light max-w--110">Not Configured</button>
+                            <ul class="yellow-list list-unstyled p-l--26">
+                                <li>Weekly Payouts</li>
+                                <li>Friction-less checkout</li>
+                                <li>Many international currencies supported</li>
+                            </ul>
+                            <p class="title-light-24">2.9% + $0.30 / ticket</p>
+                            <p class="p_regular">Ticketbud charges $0.99 / ticket and 2% of the ticket price for using the Ticketbud service. The fee above is additional. Combine the two fees to get the total fees per ticket. By default, all fees are passed on to the ticket purchaser so you keep 100% of your ticket face value price.</p>
+                            <button class="btn_dark max-w--120">Configure</button>
+                        </div>
+                    </div>
+                    <div class="card payment-card">
+                        <div class="card-body">
+                            <h5 class="card-title">WePay</h5>
+                            <button class="btn-light max-w--110">Not Configured</button>
+                            <ul class="yellow-list list-unstyled p-l--26">
+                                <li>Daily, weekly, or monthly payouts  </li>
+                                <li>Sell tickets at the door with Ticketbud's Mobile Apps</li>
+                                <li>Friction-less checkout</li>
+                                <li>Available for users with US or Canadian-based bank accounts</li>
+                            </ul>
+                            <p class="title-light-24">2.9%</p>
+                            <p class="p_regular">Ticketbud charges $0.99 / ticket and 2% of the ticket price for using the Ticketbud service. The fee above is additional. Combine the two fees to get the total fees per ticket. By default, all fees are passed on to the ticket purchaser so you keep 100% of your ticket face value price.</p>
+                            <button class="btn_dark max-w--120">Configure</button>
+                        </div>
+                    </div>
+                    <div class="card payment-card">
+                        <div class="card-body">
+                            <h5 class="card-title">PayPal</h5>
+                            <button class="btn-light max-w--110">Not Configured</button>
+                            <ul class="yellow-list list-unstyled p-l--26">
+                                <li>Daily payouts</li>
+                                <li>Many international currencies supported</li>
+                                <li>Ticketbud organizer fees are invoiced after the event</li>
+                                <li>Attendees are redirected to PayPal during checkout</li>
+                                <li>Business or Premier Account is required to accept credit/debit card sales</li>
+                                <li>Requires Instant Payment Notification configuration</li>
+                            </ul>
+                            <p class="title-light-24">2.9% + $0.30 / ticket</p>
+                            <p class="p_regular">Ticketbud charges $0.99 / ticket and 2% of the ticket price for using the Ticketbud service. The fee above is additional. Combine the two fees to get the total fees per ticket. By default, all fees are passed on to the ticket purchaser so you keep 100% of your ticket face value price.</p>
+                            <button class="btn_dark max-w--120">Configure</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu4" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Integrations</h3>
+                    <div class="add-photo-area m-b--60">
+                        <div class="flex-1">
+                            <img src="images/noun_Image.png" alt="" width="30" height="24">
+                            <p class="p_regular p-t--24 text-black">
+                                Add an engaging image to attract attendees to your events.
+                                The recommended size is 1024px wide by 512px tall to ensure good visual quality.
+                            </p>
+                            <button class="btn_dark max-w--120">Add Photo</button>
+                        </div>
+                    </div>
+                    <h3 class="title-bold-24 m-b--24">Avatar</h3>
+                    <div class="d-flex align-items-center m-b--60">
+                        <div class="avatar-img-area m-r--24">
+                            <img src="images/noun_Image.png" alt="" >
+                        </div>
+                        <p class="p_regular w-50 p-t--24 text-black w-50">
+                            Upload an avatar that represents your events. The recommended size is 112px wide by 112px tall to ensure good visual quality.
+                        </p>
+                    </div>
+                    <h3 class="title-bold-24 m-b--24">Basic Info</h3>
+                    <form action="" class="d-flex flex-wrap">
+                        <div class="w-50 p-r--24">
+                            <div class="form-group">
+                                <label for="name" class="v-label">Organization Name</label>
+                                <input type="text" class="v_input" id="name" placeholder="ValiTicket">
+                            </div>
+                            <div class="form-group">
+                                <label for="address" class="v-label">Public Address</label>
+                                <input type="text" class="v_input" id="address" placeholder="123 Main Street, Austin, TX 78701">
+                            </div>
+                        </div>
+                        <div class="w-50 p-r--24">
+                            <div class="form-group">
+                                <label for="phone" class="v-label">Public Phone Number</label>
+                                <input type="number" class="v_input" id="phone" placeholder="(777) 777-0000">
+                            </div>
+                            <div class="form-group">
+                                <label for="url" class="v-label">Public Website URL</label>
+                                <input type="text" class="v_input" id="url" placeholder="https://www.example.com">
+                            </div>
+                        </div>
+                        <div class="w-100 p-r--24">
+                            <div class="form-group">
+                                <label for="textarea" class="v-label">Public Phone Number</label>
+                                <textarea type="text" class="v_textarea" rows="7" id="textarea"></textarea>
+                            </div>
+                        </div>
+                        <h3 class="title-bold-24 m-b--24">Basic Info</h3>
+                        <div class="w-100 d-flex">
+                            <div class="w-50 p-r--24">
+                                <div class="form-group">
+                                    <label for="twitter" class="v-label"><span class="m-r--12"><img src="images/twitter.png" alt=""></span>Twitter Handle</label>
+                                    <input type="text" class="v_input" id="twitter" placeholder="ValiTicket">
+                                </div>
+                                <div class="form-group">
+                                    <label for="instagram" class="v-label"><span class="m-r--12"><img src="images/insta.png" alt=""></span>Instagram Handle</label>
+                                    <input type="text" class="v_input" id="instagram" placeholder="ValiTicket">
+                                </div>
+                            </div>
+                            <div class="w-50 p-r--24">
+                                <div class="form-group">
+                                    <label for="facebook" class="v-label"><span class="m-r--12"><img src="images/facebook.png" alt=""></span>Facebook URL</label>
+                                    <input type="number" class="v_input" id="facebook" placeholder="ValiTicket">
+                                </div>
+                                <div class="form-group">
+                                    <label for="youtube" class="v-label"><span class="m-r--12"><img src="images/g5360.png" alt=""></span>YouTube URL</label>
+                                    <input type="text" class="v_input" id="youtube" placeholder="ValiTicket">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_dark w-320 m-0">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+            <div id="menu5" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Integrations</h3>
+                    <div class="w-100 p-r--24">
+                        <div class="form-group w-50">
+                            <p class="p_regular">Events must be public to display on the calendar. <br> Copy and paste the code below for use on your webpage:</p>
+                            <textarea type="text" class="v_textarea" rows="7" id="textarea1"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu6" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Integrations</h3>
+                    <h3 class="title-light-24">Credit Card On File</h3>
+                    <p class="p_regular">
+                        Link a credit or debit card to pay your invoices. PayPal and certain legacy payment providers require Ticketbud to issue invoices for service fees.
+                    </p>
+                    <div class="p-r--104 w-50">
+                        <form action=""  class="card-card">
+                            <div class="form-group">
+                                <label for="card">Add a credit or debit card</label>
+                                <input type="number" id="card" placeholder="Card Number MM/YY CVC" class="v_input">
+                            </div>
+                            <button class="btn_dark m-b--20 w-240 d-flex justify-content-center">Save Card</button>
+                            <p class="p_regular">Card information is stored securely with . <span><a href="#" class="text-black">Stripe</a></span></p>
+                        </form>
+                    </div>
+                    <h3 class="title-light-24 m-b--24 m-t--57">Invoices</h3>
+                    <div style="    border: 1px solid #ccc; border-radius: 10px 10px 0 0;  overflow: hidden;">
+                        <table class="table v_table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Purchaser</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Event</th>
+                                <th scope="col">Tickets</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h3 class="title-light-24 m-b--24 m-t--57">Payment History</h3>
+                    <div style="    border: 1px solid #ccc; border-radius: 10px 10px 0 0;  overflow: hidden;">
+                        <table class="table v_table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Purchaser</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Event</th>
+                                <th scope="col">Tickets</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="menu7" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Notifications</h3>
+                    <p class="p_regular">Your preferences apply to all of the events that you are subscribed to. <br> You can configure receiving periodic notifications about ticket sales and check-in.</p>
+                    <button class="btn_dark w-240">Enable Notifications</button>
+                </div>
+            </div>
+            <div id="menu8" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">My Tickets</h3>
+                    <p class="p_regular m-b--20">View or manage the tickets that you have been issued for upcoming events</p>
+                    <p class="p_regular text-black">No tickets found</p>
+                </div>
+            </div>
+            <div id="menu9" class="tab-pane fade">
+                <div>
+                <h3 class="title-bold-24 m-b--24">Integrations</h3>
+                <div class="card payment-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sales force</h5>
+                        <button class="btn-light max-w--110">Not Configured</button>
+                        <p class="p_regular">Ticketbud charges $0.99 / ticket and 2% of the ticket price for using the Ticketbud service. The fee above is additional. Combine the two fees to get the total fees per ticket. By default, all fees are passed on to the ticket purchaser so you keep 100% of your ticket face value price.</p>
+                        <p class="p_regular">Three steps to connect:</p>
+                        <ul class="yellow-list list-unstyled p-l--26">
+                            <li>For just $1, purchase the Ticketbud AppExchange App within Salesforce </li>
+                            <li>Come back to this page and select "I have connected the AppExchange app"</li>
+                            <li>Click "Connect Salesforce" to authorize Ticketbud with Salesforce, once done, allow up to an hour to sync previous data</li>
+                        </ul>
+                        <p class="p_regular">
+                            <input type="radio" name="gender" value="male">I have connected the AppExchange app</p>
+                        <button class="btn_dark max-w--120">Configure</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="menu10" class="tab-pane fade">
+                <div>
+                    <h3 class="title-bold-24 m-b--24">Account</h3>
+                    <button class="btn-light w-240">Enable Notifications</button>
+                    <h3 class="title-light-24 m-b--24 m-t--35">Name</h3>
+                    <form action="">
+                        <div class="w-50">
+                            <div class="form-group">
+                                <label for="f-name" class="v-label">First Name</label>
+                                <input type="text" class="v_input" id="f-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="l-name" class="v-label">Last Name</label>
+                                <input type="text" class="v_input" id="l-name">
+                            </div>
+                        </div>
+                        <button class="btn_dark w-240">Save Changes</button>
+                    </form>
+                    <h3 class="title-light-24 m-b--24 m-t--35">Change Password</h3>
+                    <form action="">
+                        <div class="w-50">
+                            <div class="form-group">
+                                <label for="c-pass" class="v-label">Current Password</label>
+                                <input type="password" class="v_input" id="c-pass">
+                            </div>
+                            <div class="form-group">
+                                <label for="n-pass" class="v-label">New Password</label>
+                                <input type="password" class="v_input" id="n-pass">
+                            </div>
+                            <div class="form-group">
+                                <label for="c-n-pass" class="v-label">Confirm Password</label>
+                                <input type="password" class="v_input" id="c-n-pass">
+                            </div>
+                        </div>
+                        <button class="btn_dark w-240">Change Password</button>
+                    </form>
+                    <h3 class="title-light-24 m-t--35">ValiTicket API (beta)</h3>
+                    <p class="p_regular">Programmatically retrieve ticketing data for custom applications.</p>
+                    <button class="btn_dark w-240">API Configuration</button>
+                </div>
+            </div>
+        </div>
     </div>
-
+</div>
 
 
 
@@ -361,39 +534,7 @@
 <script src="js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-    setTimeout(function(){
-        document.getElementById("body-wrapper").style.display = "block"
-        document.getElementById("fadeInUp").classList.add("fadeInUp");
-    }, 2000);
-    function myFunction() {
-        document.getElementById("body-wrapper").style.display = "none";
-    }
-
-
-    var section = document.querySelector('.numbers');
-    var hasEntered = false;
-
-    window.addEventListener('scroll', (e) => {
-        var shouldAnimate = (window.scrollY + window.innerHeight) >= section.offsetTop;
-
-        if (shouldAnimate && !hasEntered) {
-            hasEntered = true;
-
-            $('.value').each(function () {
-                $(this).prop('Counter',0).animate({
-                    Counter: $(this).text()
-                }, {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function (now) {
-                        $(this).text(Math.ceil(now));
-                    }
-                });
-            });
-
-        }
-    });
+    $
 </script>
-
 </body>
 </html>
